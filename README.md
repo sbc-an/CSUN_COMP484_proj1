@@ -1,2 +1,1 @@
-# CSUN_COMP484_proj1
-CSUN: COMP 484-16317-SP2026: Assignment: Project 1 HTML and CSS
+https://sbc-an.github.io/CSUN_COMP484_proj1/
