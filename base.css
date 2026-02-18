@@ -1,0 +1,42 @@
+html {
+    font-family: sans-serif;
+}
+
+main {
+    background-color: #ffffff;
+}
+
+nav > table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.navitem {
+    background-color: #a0ffff;
+    width: 120px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+.navfiller {
+    max-width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    margin: 0px;
+}
+
+.currentpage {
+    background-color: #ffffff;
+    width: 120px;
+    border: 1px solid black;
+    border-bottom: none;
+    margin: 0px;
+}
+
+td {
+    text-align: center;
+}
+
+td > a {
+    text-decoration: none;
+}
