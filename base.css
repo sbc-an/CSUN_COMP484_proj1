@@ -45,3 +45,9 @@ td {
 td > a {
     text-decoration: none;
 }
+
+code {
+    background-color: #404040;
+    color: #ffffff;
+    padding: 5px;
+}

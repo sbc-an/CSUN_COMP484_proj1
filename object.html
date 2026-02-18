@@ -24,7 +24,7 @@
     </header>
     <main role="main">
       <h3>Specifications</h3>
-      <p>The object tag can be used for any external resource of valid MIME type, generally image, video, iframe, or just misc. data to be handled by other plugins or scripts.</p>
+      <p>The object tag can be used for any external resource of valid MIME type, generally image, video, frame, or just misc. data to be handled by other plugins or scripts.</p>
       <p>The contents between opening and closing tags are used as a fallback.</p>
       <h3>Rationale</h3>
       <p>While image, video, and iframe all have tags of their own, object tag allows these resources to be more flexible in maintenance and JavaScript interactions as well as allowing it to be invisible resource loaders for later use.</p>
@@ -37,9 +37,9 @@
       <p><code>&lt;object type="image/png" data="resources/tags.png"&gt;&lt;/object&gt;</code></p>
       <p>will result in:</p>
       <object type="image/png" data="resources/tags.png"></object>
-      <p><code>&lt;object width="800px" height="800px" type="application/pdf" data="resources/Comp484_Project1_HTML_and_CSS.pdf"&gt;&lt;/object&gt;</code></p>
+      <p><code>&lt;object width="800px" height="400px" type="application/pdf" data="resources/Comp484_Project1_HTML_and_CSS.pdf"&gt;&lt;/object&gt;</code></p>
       <p>will result in:</p>
-      <object width="800px" height="800px" type="application/pdf" data="resources/Comp484_Project1_HTML_and_CSS.pdf"></object>
+      <object width="800px" height="400px" type="application/pdf" data="resources/Comp484_Project1_HTML_and_CSS.pdf"></object>
     </main>
   </body>
 </html>
