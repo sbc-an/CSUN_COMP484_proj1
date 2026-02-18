@@ -6,9 +6,9 @@
     <link href="base.css" rel="stylesheet" type="text/css"/>
   </head>
   <body>
-    <header>
+    <header role="banner">
       <h1>COMP484 proj1</h1>
-      <nav>
+      <nav role="navigation">
         <table>
           <tbody>
             <tr>
@@ -22,8 +22,24 @@
         </table>
       </nav>
     </header>
-    <main>
-      
+    <main role="main">
+      <h3>Specifications</h3>
+      <p>The object tag can be used for any external resource of valid MIME type, generally image, video, iframe, or just misc. data to be handled by other plugins or scripts.</p>
+      <p>The contents between opening and closing tags are used as a fallback.</p>
+      <h3>Rationale</h3>
+      <p>While image, video, and iframe all have tags of their own, object tag allows these resources to be more flexible in maintenance and JavaScript interactions as well as allowing it to be invisible resource loaders for later use.</p>
+      <h3>Key Attributes</h3>
+      <ul>
+        <li><u>type</u>: required. MIME type that determines how data should be treated by the web browser.</li>
+        <li><u>data</u>: required. URL or path to the resource you want to load.</li>
+      </ul>
+      <h3>Demonstration</h3>
+      <p><code>&lt;object type="image/png" data="resources/tags.png"&gt;&lt;/object&gt;</code></p>
+      <p>will result in:</p>
+      <object type="image/png" data="resources/tags.png"></object>
+      <p><code>&lt;object width="800px" height="800px" type="application/pdf" data="resources/Comp484_Project1_HTML_and_CSS.pdf"&gt;&lt;/object&gt;</code></p>
+      <p>will result in:</p>
+      <object width="800px" height="800px" type="application/pdf" data="resources/Comp484_Project1_HTML_and_CSS.pdf"></object>
     </main>
   </body>
 </html>
